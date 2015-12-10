@@ -7,7 +7,8 @@
 <br/>
   <%@events.each do |event|%>
     <h5>
-      <%="#{event["title"]} @ #{event["venue"]["name"]}"%>
+      <a href="<%=event["url"]%>"><%=event["title"]%></a> @
+      <%=event["venue"]["name"]%>
     </h5>
   <%end%>
 
