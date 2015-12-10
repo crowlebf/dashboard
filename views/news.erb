@@ -1,0 +1,17 @@
+<h3>
+  National News
+</h3>
+<br/>
+
+
+<%10.times do |counter|%>
+  <h5>
+    <strong><%=@news["results"][counter]["title"]%></strong>
+  </h5>
+  <ul>
+      <%=@news["results"][counter]["abstract"]%>..<a href='<%=@news["results"][counter]["url"]%>'>
+    <button>read article</button></a>
+  </ul>
+  <br/>
+<%end%>
+

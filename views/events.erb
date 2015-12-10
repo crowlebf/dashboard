@@ -1,0 +1,35 @@
+<h3>
+  Events in <%=@geolocation.city%>
+</h3>
+
+
+<br/>
+<br/>
+  <%@events.each do |event|%>
+    <h5>
+      <%="#{event["title"]} @ #{event["venue"]["name"]}"%>
+    </h5>
+  <%end%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
