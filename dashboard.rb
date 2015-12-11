@@ -1,7 +1,6 @@
 require "./lib/geolocation"
 require "sinatra/base"
 require "net/http"
-require "pry"
 require "json"
 
 require "dotenv"
