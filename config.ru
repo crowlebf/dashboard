@@ -1,4 +1,3 @@
-require "./dashboard.rb"
 require './server'
 
 # disable buffering for Heroku Logplex
