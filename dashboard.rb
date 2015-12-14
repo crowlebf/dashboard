@@ -40,4 +40,3 @@ class Dashboard < Sinatra::Base
     erb :events
   end
 end
-
